@@ -1,4 +1,5 @@
 # instafollower
+this bot firstly finds the targeted account which u have provides in code then it will follow those followers of targeted account.
 //instafollower with the help of selenium web driver
 from selenium import webdriver
 import random
@@ -10,7 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import ElementClickInterceptedException
-SIMILAR_ACCOUNT = "hrithikroshan"
+SIMILAR_ACCOUNT = "username of account you want to target"
 USERNAME = "devil21798"
 PASSWORD = "Sajal@21"
 chrome_driver_path = "C:\chrome driver\chromedriver"
