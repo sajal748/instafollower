@@ -8,10 +8,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import ElementClickInterceptedException
-SIMILAR_ACCOUNT = "hrithikroshan"
-USERNAME = "devil21798"
-PASSWORD = "Sajal@21"
-chrome_driver_path = "C:\chrome driver\chromedriver"
+SIMILAR_ACCOUNT = "targeted account username"
+USERNAME = "your username"   # these are usernames and password of instagram account.
+PASSWORD = "your password"
+chrome_driver_path = "C:\chrome driver\chromedriver"      # path of chrome driver where we have installed it
 
 class InstaFollower:
 
