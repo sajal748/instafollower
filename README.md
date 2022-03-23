@@ -12,8 +12,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import ElementClickInterceptedException
 SIMILAR_ACCOUNT = "username of account you want to target"
-USERNAME = "devil21798"
-PASSWORD = "Sajal@21"
+USERNAME = "your username"
+PASSWORD = "password"
 chrome_driver_path = "C:\chrome driver\chromedriver"
 
 class InstaFollower:
